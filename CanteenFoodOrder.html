@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Campus Canteen – Smart Food Order</title>
+    <link href="CanteenFoodOrder.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <header>
+      <div class="header-title">
+        <h1>Campus<br><span>Canteen</span></h1>
+        <p>Fresh bites, fast order — just for you.</p>
+      </div>
+      <div class="header-badge">🍽 Order Now</div>
+    </header>
+    <main>
+      <div class="card" style="animation-delay:0.05s">
+        <div class="section-label">Step 1</div>
+        <div class="section-title">Your Details</div>
+        <div class="field-group">
+          <label for="customer-name">Your Name</label>
+        <input type="text" id="customer-name" placeholder="e.g. Ananya Kumari" autocomplete="off"/>
+        </div>
+        <div class="field-group">
+          <label>Delivery Option</label>
+          <div class="delivery-group" id="delivery-group">
+            <div class="delivery-option">
+              <input type="radio" name="delivery" id="d-dine" value="Dine In">
+              <label for="d-dine">🪑 Dine In</label>
+            </div>
+            <div class="delivery-option">
+              <input type="radio" name="delivery" id="d-take" value="Take Away">
+              <label for="d-take">🛍 Take Away</label>
+            </div>
+            <div class="delivery-option">
+              <input type="radio" name="delivery" id="d-deliver" value="Home Delivery">
+              <label for="d-deliver">🚴 Home Delivery</label>
+            </div>
+          </div>
+          <div id="delivery-msg"></div>
+        </div>
+      </div>
+      <div class="card" style="animation-delay:0.12s">
+        <div class="section-label">Step 2</div>
+        <div class="section-title">Select Food Items</div>
+        <div class="food-grid" id="food-grid"></div>
+      </div>
+      <div class="card" style="animation-delay:0.20s">
+        <div class="section-label">Step 3</div>
+        <div class="section-title">Place Your Order</div>
+        <button id="place-order-btn"
+          onmouseover="this.style.fontSize='1.16rem'; this.style.background='#c2510a';"
+          onmouseout="this.style.fontSize='1.08rem'; this.style.background='#e8640c';">
+          🛒 Place Order
+        </button>
+        <div id="free-drink-msg"></div>
+        <button id="reset-btn" onclick="resetForm()">↺ Reset Form</button>
+      </div>
+    </main>
+    <div id="popup-overlay">
+      <div id="popup-box">
+        <h2>Order Summary 🎉</h2>
+        <p class="popup-sub">Your order has been placed successfully!</p>
+        <div class="divider"></div>
+        <div class="popup-row">
+          <span class="plabel">Customer</span>
+          <span class="pval" id="p-name">—</span>
+        </div>
+        <div class="popup-row">
+          <span class="plabel">Delivery</span>
+          <span class="pval" id="p-delivery">—</span>
+        </div>
+        <div class="popup-row">
+          <span class="plabel">Items</span>
+          <span class="pval" id="p-items">—</span>
+        </div>
+        <div class="popup-total">
+          <span>Total Amount</span>
+          <span class="amount" id="p-total">₹0</span>
+        </div>
+        <div id="p-freedrink" style="margin-top:12px; text-align:center; font-size:0.93rem; font-weight:600; color:#2d6a4f; min-height:20px;"></div>
+        <button id="popup-close" onclick="closePopup()">Close</button>
+      </div>
+    </div>
+    <script src="CanteenFoodOrder.js"></script>
+  </body>
+</html>
