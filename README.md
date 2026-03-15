@@ -10,3 +10,5 @@ It may take a lot of time to think of a project and make one. The term Vibe Codi
 Some of the AIs helping me in this would be: Claude, ChatGPT, Gemini, Perplexity, Sora, Pomelli, Higgsfield, ElevenLabs, Copilot, Loveable, Wix ADI, Language Tool and so on
 
 I will update the list putting them into their different uses
+
+**Claude** is one the best generative AI chatbot which is kind of similar to OpenAI's ChatGPT.
