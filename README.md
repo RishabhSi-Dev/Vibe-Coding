@@ -7,6 +7,6 @@ And how much imagination I have about any project. I am wanting it to be multi-d
 
 It may take a lot of time to think of a project and make one. The term Vibe Coding refers to the use of AI in coding only but I believe it should help me in coding better and not just do coding by itself and also hardware is there so my intervention is needed.
 
-Some of the AIs helping me in this would be: Claude, ChatGPT, DeepSeek, Gemini, Perplexity, Sora, Pomelli, Higgsfield, ElevenLabs, Copilot, Loveable, Wix ADI, Language Tool and so on
+Some of the AIs helping me in this would be: Claude, ChatGPT, Gemini, Perplexity, Sora, Pomelli, Higgsfield, ElevenLabs, Copilot, Loveable, Wix ADI, Language Tool and so on
 
 I will update the list putting them into their different uses
