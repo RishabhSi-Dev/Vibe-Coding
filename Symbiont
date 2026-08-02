@@ -1,0 +1,28 @@
+Symbiont – AI-Driven Industrial Symbiosis Platform
+
+Symbiont is an AI-powered Industrial Symbiosis Platform developed during QW'26 Sustain-a-thon, where it secured 3rd place. The platform promotes a circular economy by connecting industries that generate waste with businesses that can reuse those materials as valuable raw resources.
+
+By leveraging AI-driven matching, Symbiont helps reduce industrial waste, lower disposal costs, and improve resource efficiency. The platform also includes a B2B waste exchange marketplace, analytics for waste valuation and optimization, and automated ESG reporting to support sustainable industrial practices.
+
+Key Features
+- AI-powered waste-to-resource matching
+- B2B marketplace for industrial waste exchange
+- Waste analytics and optimization dashboard
+- Automated ESG and sustainability reporting
+- Circular economy-focused solution aligned with the UN SDGs
+Tech Stack
+Frontend: React.js, HTML, CSS, JavaScript
+Backend: Node.js, Express.js (or update with your actual backend)
+Database: MongoDB (or update if different)
+AI: LLM-assisted recommendation/matching logic
+Deployment: Vercel / Netlify (update as applicable)
+Motivation
+
+Every year, industries generate billions of tonnes of waste, much of which can serve as valuable raw material for other industries. Symbiont addresses this inefficiency by creating an intelligent platform that enables industrial waste exchange, reducing environmental impact while creating economic value.
+
+
+Link to the website is given below:
+https://cozy-purse-67042606.figma.site/
+
+Link to the LinkedIn post is given below:
+https://www.linkedin.com/feed/update/urn:li:activity:7435373004513161216/
